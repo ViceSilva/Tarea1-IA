@@ -1,13 +1,15 @@
 # Tarea1-IA
-Para compilar dentro de la terminal:
-g++ -o ejecutable.out Busqueda.cpp utils.cpp fBusqueda.cpp 
-Luego para ejecutar se debe escribir en la terminal
-./ejecutable.out <algoritmo> <archivo_Input>
-donde <algoritmo> corresponde a el algoritmo de búsqueda a utilizar, estos pueden ser
-AS: A estrella
-DFS: Busqueda por profundidad
-G: Busqueda greedy
-UCS: Busqueda de costo uniforme
-Así un ejemplo de ejecución sería:
-./ejecutable.out AS input.txt
-Luego el resultado se imprimirá en pantalla
+Para compilar dentro de la terminal:<br>
+g++ -o ejecutable.out Busqueda.cpp utils.cpp fBusqueda.cpp <br>
+Luego para ejecutar se debe escribir en la terminal<br>
+./ejecutable.out <algoritmo> <archivo_Input><br>
+donde <algoritmo> corresponde a el algoritmo de búsqueda a utilizar, estos pueden ser<br>
+<ul>
+  <li>AS: A estrella</li>
+  <li>G: Busqueda greedy</li>
+  <li>DFS: Busqueda por profundidad</li>
+  <li>UCS: Busqueda de costo uniforme</li>
+  </ul>
+Así un ejemplo de ejecución sería:<br>
+./ejecutable.out AS input.txt<br>
+Luego el resultado se imprimirá en pantalla<br>
