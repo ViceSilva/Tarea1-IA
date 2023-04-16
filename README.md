@@ -2,8 +2,8 @@
 Para compilar dentro de la terminal:<br>
 g++ -o ejecutable.out Busqueda.cpp utils.cpp fBusqueda.cpp <br>
 Luego para ejecutar se debe escribir en la terminal<br>
-./ejecutable.out <Algoritmo> <archivo_Input><br>
-Donde <Algoritmo> corresponde a el algoritmo de búsqueda a utilizar, estos pueden ser<br>
+./ejecutable.out <Algoritmo_utilizado> <archivo_Input><br>
+Donde <Algoritmo_utilizado> corresponde a el algoritmo de búsqueda a utilizar, estos pueden ser<br>
 <ul>
   <li>AS: A estrella</li>
   <li>G: Busqueda greedy</li>
